@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.field {
+   display: flex; 
+   justify-content: center;
+}
+.input {
+    margin: 30px auto;
+    width: 300px;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(219, 233, 212);
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 2px 2px rgb(43, 205, 226);
+    border-radius: 3px;
+    outline: none;
+    
+}
+.btn {
+    margin: 30px auto;
+    width: 100px;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(82, 224, 16);
+    color: azure;
+    box-shadow: 10px 5px 5px rgb(43, 205, 226);
+    border-radius: 3px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.output, .output-geo {
+    color: darkgray;
+    font-style: italic;
+    font-size: 15px;
+}
+.chat-window {
+    width: 90%;
+    min-height: 150px;
+    height: 100%;
+    border: 3px solid #80dbbd;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    
+}
+
+.server-message, .client-message {
+    width: 50%;
+    margin: 10px;
+    padding: 5px;
+    font-size: 15px;
+    border: 3px solid #80dbbd;
+    border-radius: 10px; 
+}
+
+.client-message {
+    align-self: flex-end;
+    color: #053657;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.server-message {
+    align-self: flex-start;
+    color: #4b0614;
+}
+
+.map-link {
+    align-self: flex-end;
+    color: #053657;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    border: 3px solid #80dbbd;
+    width: 50%;
+    margin: 10px;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px; 
+}
